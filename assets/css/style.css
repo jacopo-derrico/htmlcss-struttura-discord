@@ -14,11 +14,11 @@ header {
     padding-inline: 10%;
     height: 500px;
     background-color: rgb(52, 52, 203);
+    flex-direction: column;
 }
 
 nav {
     height: 70px;
-    flex-grow: 1;
     justify-content: space-between;
     align-items: center;
 }
@@ -47,4 +47,35 @@ nav button {
     background-color: white;
     width: 10%;
     height: 40px;
+}
+
+.hero-text {
+    padding-inline: 15%;
+    text-align: center;
+    height: 300px;
+    width: 70%;
+    background-color: aquamarine;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 10%;
+}
+
+.hero-text h1,
+p {
+    width: 500px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.btns {
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.btns button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
 }
