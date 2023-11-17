@@ -10,6 +10,7 @@
     display: flex;
 }
 
+/* HEADER & HERO SECTION */
 header {
     padding-inline: 10%;
     height: 500px;
@@ -63,7 +64,7 @@ nav button {
 }
 
 .hero-text h1,
-p {
+.hero-text p {
     width: 500px;
     height: 50px;
     background-color: blueviolet;
@@ -78,4 +79,43 @@ p {
     width: 150px;
     height: 50px;
     background-color: black;
+}
+
+/* MAIN SECTION */
+
+main {
+    flex-direction: column;
+}
+
+main section {
+    padding-inline: 10%;
+    padding-block: 100px;
+    gap: 5%;
+}
+
+main section:nth-child(2) {
+    background-color: lightgray;
+    flex-direction: row-reverse;
+}
+
+/* main section:nth-child(4) {
+    background-color: lightgray;
+    flex-direction: column-reverse;
+} */
+
+main img {
+    width: 55%;
+    background-color: lightcoral;
+}
+
+main h3,
+main p {
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.flex-test {
+    flex-direction: column;
+    width: 40%;
+    gap: 30px;
 }
