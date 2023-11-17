@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    border: 1px solid black;
+    /* 
+    border: 1px solid black; */
 }
 
 .flex-container {
@@ -25,7 +25,7 @@ nav {
 }
 
 nav img {
-    width: 10%;
+    width: 100px;
     background-color: white;
     margin-block: 15px;
     height: 50px;
@@ -160,4 +160,75 @@ main h3 {
     width: 150px;
     background-color: black;
     height: 50px;
+}
+
+/* FOOTER STYLE */
+
+footer {
+    /* height: 700px; */
+    padding-inline: 10%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding-block: 10%;
+    gap: 30px;
+}
+
+footer ul {
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+footer li {
+    height: 30px;
+    width: 100px;
+    list-style-type: none;
+    background-color: white;
+}
+
+footer h5 {
+    height: 50px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.icons {
+    height: 50px;
+    width: 80%;
+    background-color: aqua;
+}
+
+.menus {
+    justify-content: space-between;
+}
+
+.social {
+    flex-direction: column;
+    width: 30%;
+    gap: 50px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.copyright {
+    height: 80px;
+    background-color: rgb(52, 70, 86);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright img {
+    width: 100px;
+    background-color: white;
+    margin-block: 15px;
+    height: 50px;
+}
+
+.copyright button {
+    background-color: white;
+    width: 10%;
+    height: 40px;
 }
